@@ -5,25 +5,25 @@
     font-weight: normal;
     font-style: normal;
 }
-	p {
-		font-family: 'blackjack-webfont', serif;
-	}
+p {
+	font-family: 'Blackjack', serif;
+	font-weight: normal;
+    font-style: normal;
+    font-size: 1.75em;
+    color: #0075a2;
+}
 @font-face {
     font-family: 'advent';
     src: url('fonts/adventpro-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
- {
-	font-family: 'advent', serif;
-}
+
 header { 
-font-family: 'blackjack-webfont', serif;
-background-color: #2F2D2E
+font-family: 'blackjack', serif;
+background-color: #2F2D2E;
 }
-header img {
-	
-}
+
 header .main-nav {
 	padding: 25px;
 	text-align: center;
@@ -38,6 +38,36 @@ header .main-nav li {
 	list-style-type: none;
 	margin-right: 20px;
 }
+h2 {
+	font-family: 'advent';
+	color: #0075a2;
+}
+body {
+	background:url('../img/bg.svg')no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
 section {
-	background-color: #F18FD1;
+	text-decoration: 
+	background-color: #FFF;
+	font-family: 'blackjack-webfont', serif;
+}
+section img {
+	width: 40%;
+	text-align: center;
+}
+.clear{
+	clear:both;
+}
+
+#about-me {
+	background-color: #2F2D2E;
+	padding: 25px;
+	text-align: center;
+	margin: 100px auto;
+  	max-width: 940px;
+  	width: 75%;
+}
+li {
+	list-style-type: none;
 }
