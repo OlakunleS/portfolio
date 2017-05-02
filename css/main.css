@@ -5,19 +5,23 @@
     font-weight: normal;
     font-style: normal;
 }
-p {
-	font-family: 'Blackjack', serif;
-	font-weight: normal;
-    font-style: normal;
-    font-size: 1.75em;
-    color: #0075a2;
-}
 @font-face {
     font-family: 'advent';
     src: url('fonts/adventpro-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
+* {
+  overflow-x: hidden;
+}
+p {
+	font-family: 'Blackjack', serif;
+	font-weight: normal;
+  font-style: normal;
+  font-size: 1.75em;
+  color: #0075a2;
+}
+
 
 header { 
 font-family: 'blackjack', serif;
@@ -38,9 +42,20 @@ header .main-nav li {
 	list-style-type: none;
 	margin-right: 20px;
 }
+h1 {
+  background-color: #2F2D2E;
+  font-family: 'advent';
+  color: #2a9d8f;
+  padding: 10px;
+}
 h2 {
 	font-family: 'advent';
 	color: #0075a2;
+}
+h3 {
+  font-size: 3em;
+  font-family:'blackjack-webfont';
+  color: #2a9d8f;
 }
 body {
 	background:url('../img/bg.svg')no-repeat center center;
@@ -70,4 +85,39 @@ section img {
 }
 li {
 	list-style-type: none;
+}
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  color: #2F2D2E;
+  padding:1em;
+}
+
+ul.profile-social-links {
+  padding: 5px;
+  height: 20px;
+  margin: 0 5px;
+}
+ul.profile-social-links li {
+  font-size: 25px;
+  padding: 10px;
+  list-style-type:none;
+  display:inline;
+  margin: 0 5px;
+}
+
+.home-slider img {
+  width: 100%;
+  height: auto;
+}
+.Fairy img {
+  width: 100%;
+}
+@media only screen and (max-width: 600px){
+
+}
+
+@media only screen and (max-width: 768px){
+
 }
