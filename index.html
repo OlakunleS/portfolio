@@ -4,16 +4,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/a5075c1dbc.js"></script>
 
 
-
-    <title>Olakunle</title>
+    <title></title>
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- YOUR CSS FILE -->
+    <link rel="stylesheet" href="css/unslider.css">
+	<link rel="stylesheet" href="css/unslider-dots.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
+	
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,23 +37,51 @@
 			<li><a href="about.html">About</a></li>
 		</ul>
 		<div class="clear"></div>	
-	</header>
-	<section>
-    <ul class="profile-social-links">
-        <li><a href=" https://olakunles.github.io/" target="_blank" title="First-Website"><i class="fa fa-first-website" aria-hidden="true"></i></a></li>
+  	</header>
+  	<section>
+    <h3>Graphic Content</h3>
+  	</section>
+  	<div class="row">
+  		<div class="col-sm-6 col-sm-offset-3">
+		  	<div class="home-slider">
+  				<ul>
+  				  <li><img src="img/Career-ready.jpg" /></li>
+  				  <li><img src="img/Migos.jpg" /></li>
+            <li><img src="img/O-Bag.jpg" /></li>
+            <li><img src="img/quote.jpg" /></li>
+            <li><img src="img/zKennybbq.jpg" /></li>
+  				</ul>
+		    </div>
+		  </div>
+    </div>
+
+      <!-- DON'T DELETE THIS. DO NOT PUT ANY ADDITIONAL HTML BELOW THIS POINT. jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+  	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- Custom Helper Script -->
+      
+    <footer>
+      <ul class="profile-social-links">
+        <li><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
         <li><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         <li><a href="http://www.instagram.com/" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-    </ul>
-	</section>
-    
-    
-
-    <!-- DON'T DELETE THIS. DO NOT PUT ANY ADDITIONAL HTML BELOW THIS POINT. jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- Custom Helper Script -->
+      </ul>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/helper.js"></script>
+    <script src="js/unslider-min.js"></script>
+  	<script>
+  	  jQuery(document).ready(function($) {
+  	    
+  	    $('.home-slider').unslider({
+  	      arrows: false,
+  	      autoplay: true, 
+  	      delay: 5000
+  	    });
+
+  	  });
+  	</script>
   </body>
 </html>
 
