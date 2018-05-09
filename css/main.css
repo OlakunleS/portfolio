@@ -58,7 +58,7 @@ h3 {
   color: #2a9d8f;
 }
 body {
-	background:url('../img/bg.svg')no-repeat center center;
+	background:url('../img/logo.jpg')no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 }
