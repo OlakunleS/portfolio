@@ -94,20 +94,16 @@ footer {
 }
 
 ul.profile-social-links {
-  padding: 5px;
   height: 20px;
-  margin: 0 5px;
 }
 ul.profile-social-links li {
   font-size: 25px;
-  padding: 10px;
   list-style-type:none;
   display:inline;
-  margin: 0 5px;
 }
 
 .home-slider img {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 .Fairy img {
