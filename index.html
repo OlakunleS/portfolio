@@ -29,16 +29,137 @@
   </head>
   
   <body>
-    <!--Your HTML Starts Here :: Hint, you must put your grid in a .container div. -->
-    <header>
-		<ul class="main-nav">
-			<li><a href="index.html" class="selected">Home</a></li>
-			<li><a href="gallery.html">Art</a></li>
-			<li><a href="about.html">About</a></li>
-		</ul>
-		<div class="clear"></div>	
+	 <header>
+	  <div class="clear"></div>	
   	</header>
-  	<section>
+	<div class="w3-top">
+	  <ul class="w3-navbar" id="myNavbar">
+	    <li><a href="#" class="w3-padding-large">Olakunle</a></li>
+	    <li class="w3-hide-small w3-right">
+	      <a href="#contact" class="w3-padding-large">Contact</a>
+	    </li>
+	    <li class="w3-hide-small w3-right">
+	      <a href="#portfolio" class="w3-padding-large">Portfolio</a>
+	    </li>
+	    <li class="w3-hide-small w3-right">
+	      <a href="#about" class="w3-padding-large">About</a>
+	    </li>
+	  </ul>
+	</div>
+
+	<!-- Image with Logo Text -->
+	<div class="bgimg-1 w3-opacity w3-display-container">
+	  <div class="w3-display-middle" style="white-space:nowrap;">
+	    <h1 class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">Olakunle <span class="w3-hide-small">Salami</span></h1>
+	  </div>
+	</div>
+	<!-- About-->
+	<div class="w3-content w3-container w3-padding-64" id="about">
+	  <h2 class="w3-center">ABOUT ME</h2>
+	  <p class="w3-center"><em>I love designing.</em></p>
+	  <p>Hello my name is Olakunle and Welcome to my portfolio. I like to explore other people’s creation and explore how opinions affect their thoughts. I also like to hang out with a few friends preferably then a large group. I enjoy playing games only if they are interesting. I am a simple guy working to achieve an uneasy goal to explore the world someday. We may have different opinions and views but I hope to work with it in order to achieve something we will both like. 
+		I am a person who likes to finish his work first then have time to play later. I like to make good impressions through my work. Whenever you need something I will try to help you as best as I can. Sometimes I get lost in my work then through the directions in order to present my best work. Even if we do not share the same interest or likes. I will do my best to shape my creations into your image.</p>
+	<!-- Profile pic with text -->
+	<div class="w3-row">
+	    <div class="w3-col m6 w3-center w3-section">
+	      <img src="id="profile" class="w3-circle" alt="Photo of Me">
+	    </div>
+
+	    <!-- Hide this text on small devices -->
+	    <div class="w3-col m6 w3-hide-small w3-section">
+	      <p>Looking for Employment!</p>
+	    </div>
+	  </div>
+	</div>
+	<!-- Second Image with logo Text -->
+	<div class="bgimg-2 w3-display-container" id="portfolio">
+	  <div class="w3-display-middle">
+	    <span class="w3-xxlarge w3-text-light-grey w3-wide">PORTFOLIO</span>
+	  </div>
+	</div>
+	<!-- Container (Portfolio Section) -->
+	<div class="w3-content w3-container w3-padding-64">
+	  <h2 class="w3-center">MY WORK</h2>
+	  <p class="w3-center"><em>Here are some of my latest lorem work.<br> Click on the images to make them bigger</em></p><br>
+	<!-- Websites-->
+        <div class="row">
+          <div class="col-md-4">
+              <a href="https://olakunles.github.io/">
+                <img src="img/First-Website.png" alt="">
+              </a>
+		style="width:100%" class="w3-hover-opacity">
+		</div>
+          <div class="col-md-4">
+              <a href="https://olakunles.github.io/onironi/">
+                <img src="img/Onironi.png" alt="">
+              </a>
+		style="width:100%" class="w3-hover-opacity">
+		</div>
+          <div class="col-md-4">
+              <a href="https://olakunles.github.io/Extinct-Animal/">
+                <img src="img/Extinction.png" alt="">
+                <p>Extinction</p>
+              </a>
+		style="width:100%" class="w3-hover-opacity">
+		</div>
+          <div class="col-md-4">
+              <a href="https://olakunles.github.io/OlakunleS-BostonTerrier/">
+                <img src="img/BostonTerrier.png" alt="">
+              </a>
+		style="width:100%" class="w3-hover-opacity">
+		</div>
+          <div class="col-md-4">
+              <a href="https://olakunles.github.io/Job_Final/">
+                <img src="img/Jobimg.jpg" alt="">
+              </a>
+		style="width:100%" class="w3-hover-opacity">
+		</div>
+        </div>
+	<!-- Modal for full size images on click-->
+	<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+	  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+	  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+	    <img id="img01" style="max-width:100%">
+	  </div>
+	</div>
+	<!-- Third Parallax Image with Portfolio Text -->
+	<div class="bgimg-3 w3-display-container" id="contact">
+	  <div class="w3-display-middle">
+	    <h2 class="w3-xxlarge w3-text-light-grey w3-wide">CONTACT</h2>
+	  </div>
+	</div>
+	<!-- Container (Contact Section)
+	<div class="w3-content w3-container w3-padding-64">
+	  <h3 class="w3-center">WHERE I WORK</h3>
+	  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+	  <address class="w3-row w3-padding-32 w3-section">
+	    <div class="w3-col m4 w3-container">
+	      <!-- Add Google Maps -->
+	      <div id="googleMap" class="w3-round-large"></div>
+	    </div>
+	    <div class="w3-col m8 w3-container w3-section">
+	      <div class="w3-large w3-margin-bottom">
+		<i class="fa fa-map-marker w3-hover-text-black" style="width:30px"></i> Kabankalan City, NIR, Philippines<br>
+		<i class="fa fa-phone w3-hover-text-black" style="width:30px"></i> Phone: +639 0744 38325<br>
+		<i class="fa fa-envelope w3-hover-text-black" style="width:30px"> </i> Email: christianpecson.io@gmail.com<br>
+	      </div>
+	      <p>Swing by for a cup of coffee, or leave me a note:</p>
+	      <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+		<div class="w3-half">
+		  <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Name">
+		</div>
+		<div class="w3-half">
+		  <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Email">
+		</div>
+	      </div>
+	      <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Comment">
+	      <a href="mailto:christianpecson.io@gmail.com" class="w3-btn w3-section w3-right">SEND</a>
+	    </div>
+	  </address>
+	</div> -->
+	<!--Your HTML Starts Here :: Hint, you must put your grid in a .container div. -->
+  	<!-- <section>
     <h3>Graphic Content</h3>
   	</section>
   	<div class="row">
@@ -53,7 +174,7 @@
   				</ul>
 		    </div>
 		  </div>
-    </div>
+    </div> -->
 
       <!-- DON'T DELETE THIS. DO NOT PUT ANY ADDITIONAL HTML BELOW THIS POINT. jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -61,7 +182,7 @@
   	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <!-- Custom Helper Script -->
       
-    <footer>
+    <footer class="w3-center w3-dark-grey w3-padding-48 w3-hover-black cf">
       <ul class="profile-social-links">
 	<li><a href="https://www.linkedin.com/in/olakunle-s-a17557119/" target="_blank" title="Linkedin"> <i class="fab fa-linkedin"></i></a></li>
         <li><a href="https://www.instagram.com/la.ken.le/" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
