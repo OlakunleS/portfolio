@@ -1,0 +1,220 @@
+
+@font-face {
+    font-family: 'Blackjack';
+    src: url('fonts/blackjack-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'advent';
+    src: url('fonts/adventpro-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** Body **/
+h1,h2,h3,h4,h5,h6 {font-family: "Blackjack", sans-serif;}
+h1 {
+	font-family: cambo;
+}
+p {
+	font-family: allerta;
+}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+header{
+	height: 250px;
+	text-align: center;
+	background-color: #000;
+}
+/*Navbar Styles*/
+.navbar, .navbar-inverse, .container-fluid, .navbar-header, .navbar-right{
+	margin: 0px;
+  	top: 0;
+}
+
+/* Create a Parallax Effect */
+.about, .websites, .project {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+  background-image: url("../img/auroraimg.jpg");
+  height: 400px; 
+	text-align: center;
+}
+
+.aboutme{
+	text-align: center;
+	padding: 20px;
+	margin: 15px;
+}
+
+.aboutme p{
+	text-align: center;
+	font-size: 2em;
+	color: #000;
+}
+
+.aboutme img{
+	border-radius: 50em;
+	width: 200px;
+}
+.about, .websites, .project, span.scale {
+	background-color: rgba(0,0,0, 0.4);
+	color: #fff;
+	padding: 18px;
+	font-size: 40px;
+	letter-spacing: 5px;
+}
+
+.websites{
+	background-image: url(../img/website.jpg);
+	height: 400px;
+	text-align: center;
+}
+.websitei{
+	margin: 25px;
+}
+
+.showcase li{
+	display: inline;
+	width: 200px;
+	padding: 15px;
+}
+
+.project{
+	background-image: url(../img/projectimg.jpg);
+	height: 400px;
+	text-align: center;
+}
+
+.arts{
+	display: inline;
+	padding: 30px;
+	margin: 25px;
+}
+.arts img{
+	border-radius: 50em;
+	width: 200px;
+	max-height: 200px;
+}
+/**update**
+.arts h2{
+	display: inline;
+	text-align: center;
+}
+**/
+/**update**
+.showcase a{
+	text-align: center;
+	padding: 0px;
+	font-family: allerta;
+	font-size: 20px;
+}
+**/
+footer{
+	background-color: #605D5D;
+	margin: 0px;
+	text-align: center;
+	text-decoration: none;
+}
+
+footer p{
+	color: #fff;
+	font-size: 1.5em;
+	margin: 10px;
+	display: inline;
+}
+
+footer h1{
+	color: #000;
+}
+
+
+html {
+	margin:0;
+	padding:0;
+	height:100%
+}
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; 
+  outline: none; 
+  background-color: gray; 
+  color: #000; /* Text color */
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px;
+	opacity: 0.7;
+}
+
+#myBtn:hover {
+  background-color: #fff; /* Add a dark-grey background on hover */
+}
+.lwide {letter-spacing: 10px;}
+.hover-opacity {cursor: pointer;}
+
+
+/* Clearfix Hack */
+.clear:before,
+.clear:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clear:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clear {
+    *zoom: 1;
+}
+
+/* Social Media Icons */
+.link{
+	font-size: 1em;
+	color: #fff;
+}
+.link li{
+	display: block;
+}
+
+.link i{
+	font-size: 2em;
+}
+
+.link a{
+	color: #fff;
+}
+
+/* Turn off parallax scrolling for tablets and mobiles */
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+	.showcase {
+		width: 20%;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.showcase {
+		width: 20%;
+	}
+}
