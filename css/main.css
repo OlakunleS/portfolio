@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Blackjack';
     src: url('fonts/blackjack-webfont.woff2') format('woff2');
@@ -121,7 +120,7 @@ header{
 }
 **/
 footer{
-	background-color: #605D5D;
+	background-color: #000;
 	margin: 0px;
 	text-align: center;
 	text-decoration: none;
@@ -216,5 +215,8 @@ html {
 @media only screen and (max-width: 500px) {
 	.showcase {
 		width: 20%;
+	}
+	header img{
+		max-width: 100%;
 	}
 }
