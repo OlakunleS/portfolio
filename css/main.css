@@ -211,6 +211,9 @@ html {
 	.showcase {
 		width: 20%;
 	}
+	.aboutme{
+		font-size: 0.5em;
+	}
 }
 @media only screen and (max-width: 500px) {
 	.showcase {
@@ -218,5 +221,8 @@ html {
 	}
 	header img{
 		max-width: 100%;
+	}
+	.aboutme{
+		font-size: 0.5em;
 	}
 }
