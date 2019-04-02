@@ -211,6 +211,12 @@ html {
 	.showcase {
 		width: 20%;
 	}
+	.showcase li{
+	display: inline;
+	width: 200px;
+	padding: 0px;
+	text-align: center;
+	}
 	.aboutme{
 		font-size: 0.5em;
 	}
@@ -218,6 +224,12 @@ html {
 @media only screen and (max-width: 500px) {
 	.showcase {
 		width: 20%;
+	}
+	.showcase li{
+	display: inline;
+	width: 200px;
+	padding: 0px;
+	text-align: center;
 	}
 	header img{
 		max-width: 100%;
