@@ -25,9 +25,7 @@ body, html {
     line-height: 1.8;
 }
 header{
-	height: 250px;
-	text-align: center;
-	background-color: #000;
+	
 }
 /*Navbar Styles*/
 .navbar, .navbar-inverse, .container-fluid, .navbar-header, .navbar-right{
@@ -220,6 +218,10 @@ html {
 	.aboutme{
 		font-size: 0.5em;
 	}
+	.websitei{
+		overflow: hidden;
+		padding: inherit;
+	}
 }
 @media only screen and (max-width: 500px) {
 	.showcase {
@@ -229,12 +231,15 @@ html {
 	display: inline;
 	width: 200px;
 	padding: 0px;
-	text-align: center;
 	}
 	header img{
 		max-width: 100%;
 	}
 	.aboutme{
 		font-size: 0.5em;
+	}
+	.websitei{
+		overflow: hidden;
+		padding: inherit;
 	}
 }
