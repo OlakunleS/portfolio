@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: 'Blackjack';
+    src: url('fonts/blackjack-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'advent';
+    src: url('fonts/adventpro-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** Body **/
+h1,h2,h3,h4,h5,h6 {font-family: "Blackjack", sans-serif;}
+h1 {
+	font-family: cambo;
+	color: #000;
+}
+p {
+	font-family: allerta;
+}
+body, html {
+    height: 100%;
+    color: #777;
+}
+body{
+	background-image: url("../img/Webbackground.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+	position: static;
+}
+
+/*Navbar Styles*/
+.navbar, .navbar-inverse, .container-fluid, .navbar-header, .navbar-right{
+	margin: 0px;
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+}
+
+/* Create a Parallax Effect */
+.websites, .project {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contacts {
+	background-color: #fff;
+	padding: 10px;
+}
+
+footer{
+	margin: 0px;
+	text-align: center;
+}
+
+footer p{
+	color: #000;
+	display: inline;
+	font-size: 1.5em;
+	margin: 10px;
+}
+
+footer hr{
+	width: 75%;
+	color: #000;
+	border: 2px solid grey;
+}
+/* Social Media Icons */
+.link{
+	font-size: 1em;
+	color: #000;
+	display: flex;
+}
+.link-item{
+	display: inline;
+	flex: 1 0 24rem;
+	margin: 1rem;
+	padding: 0px;
+}
+
+.link i{
+	font-size: 2em;
+	padding: 5px;
+}
+
+.link a{
+	color: #000;
+}
+
+html {
+	margin:0;
+	padding:0;
+	height:100%
+}
+.lwide {letter-spacing: 10px;}
+.hover-opacity {cursor: pointer;}
+
+
+/* Clearfix Hack */
+.clear:before,
+.clear:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clear:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clear {
+    *zoom: 1;
+}
+
+@media only screen and (max-width: 649px) {
+	.link{
+	font-size: 1em;
+	color: #000;
+	display: grid;
+}
+.link-item{
+	display: inline;
+	margin: 1rem;
+	padding: 0px;
+}
+}
