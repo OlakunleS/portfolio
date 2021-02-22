@@ -35,6 +35,7 @@ body{
 
 section{
 	position: static;
+	padding: 0px 100px;
 }
 
 /*Navbar Styles*/
@@ -43,6 +44,10 @@ section{
 	position: -webkit-sticky; /* Safari */
   	position: sticky;
   	top: 0;
+}
+
+.container-fluid {
+	padding: 0px 100px;
 }
 
 /* Create a Parallax Effect */
@@ -127,13 +132,19 @@ html {
 
 @media only screen and (max-width: 649px) {
 	.link{
-	font-size: 1em;
-	color: #000;
-	display: grid;
-}
-.link-item{
-	display: inline;
-	margin: 1rem;
-	padding: 0px;
-}
+		font-size: 1em;
+		color: #000;
+		display: grid;
+	}
+	.link-item{
+		display: inline;
+		margin: 1rem;
+		padding: 0px;
+	}
+	.container-fluid {
+		padding: 0px 20px;
+	}
+	section{
+		padding: 0px;
+	}
 }

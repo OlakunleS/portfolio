@@ -32,3 +32,8 @@
 .gallery-item i {
     font-size: medium;
 }
+@media only screen and (max-width: 649px){
+	.gallery{
+		margin: 0px;
+	}
+}

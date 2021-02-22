@@ -5,8 +5,7 @@
 }
 .intro-container, .middle-container, .ending-container{
 	display: flex;
-	margin: 100px;
-	background-color: #fff;
+	margin: 50px;
 	padding: 25px;
 	height: 1000px;
 }
@@ -14,17 +13,22 @@
 .background, .programmer, .artistic  {
 	padding: 30px;
 	font-size: 30px;
+	background-color: #fff;
+}
+.background h1, .programmer h1, .artistic h1{
+	text-align: center;
+}
+.intro, .picture, .picart{
+	background-size: 100%;
 }
 
 .intro {
 	background-image: url("../img/kunlepic.jpg");
 	flex: 1;
-	background-size: 100%;
 	background-repeat: no-repeat;
 }
 .picture{
 	background-image: url(../img/website.jpg);
-	background-size: 100%;
 	background-repeat: no-repeat;
 	flex: 1;
 }
@@ -32,11 +36,8 @@
 	background-image: url(../img/Caragift.png);
 	flex: 1;
 	background-repeat: no-repeat;
-	background-size: 100%;
 }
-.intro:first-child{
-	margin-right: 20px;
-}
+
 .background{
 	text-align: right;
 	width: 50%;
@@ -63,22 +64,38 @@
 	
 	.background, .programmer, .artistic {
 		width: 100%;
-		padding: 5px;
+		padding: 0px 20px;
 		font-size: 20px;
 		text-align: center;
+	}
+	.welcome{
+		padding: 20px;
+		text-align: center;
+	}
+	.welcome h1{
+		font-size: 20px;
 	}
 	
 }
 @media only screen and (max-width: 649px) {
 	.intro-container, .middle-container, .ending-container{
 		min-height: 100vh;
+		height: 350px;
 		overflow: hidden;
 		display: grid;
 	}
 	.background, .programmer, .artistic {
 		width: 100%;
-		padding: 5px;
+		padding: 0px 20px;
 		text-align: center;
-		height: auto;
+		height: 100%;
+		font-size: 15px;
+	}
+	.welcome{
+		padding: 20px;
+		text-align: center;
+	}
+	.welcome h1{
+		font-size: 20px;
 	}
 }
