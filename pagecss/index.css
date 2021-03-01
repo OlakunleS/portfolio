@@ -2,17 +2,20 @@
 .welcome{
 	padding: 75px;
 	background-color: #fff;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 .intro-container, .middle-container, .ending-container{
 	display: flex;
 	margin: 50px;
 	padding: 25px;
-	height: 1000px;
+	min-height: 75vh;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+	background-color: #fff;
 }
 
 .background, .programmer, .artistic  {
-	padding: 30px;
-	font-size: 30px;
+	padding: 0px 30px;
+	font-size: 25px;
 	background-color: #fff;
 }
 .background h1, .programmer h1, .artistic h1{
@@ -20,6 +23,7 @@
 }
 .intro, .picture, .picart{
 	background-size: 100%;
+	width: 100%;
 }
 
 .intro {
@@ -28,7 +32,7 @@
 	background-repeat: no-repeat;
 }
 .picture{
-	background-image: url(../img/website.jpg);
+	background-image: url(../img/DesktopSetup.jpg);
 	background-repeat: no-repeat;
 	flex: 1;
 }
@@ -39,16 +43,14 @@
 }
 
 .background{
-	text-align: right;
 	width: 50%;
 }
 .programmer{
 	width: 50%;
-	text-align: left;
+	text-align: right;
 }
 
 .artistic{
-	text-align: right;
 	width: 50%;
 }
 
@@ -83,13 +85,14 @@
 		height: 350px;
 		overflow: hidden;
 		display: grid;
+		margin: 25px;
 	}
 	.background, .programmer, .artistic {
 		width: 100%;
 		padding: 0px 20px;
 		text-align: center;
 		height: 100%;
-		font-size: 15px;
+		font-size: 17px;
 	}
 	.welcome{
 		padding: 20px;

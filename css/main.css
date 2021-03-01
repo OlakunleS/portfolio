@@ -35,7 +35,7 @@ body{
 
 section{
 	position: static;
-	padding: 0px 100px;
+	padding: 0px 150px;
 }
 
 /*Navbar Styles*/
@@ -129,7 +129,9 @@ html {
 .clear {
     *zoom: 1;
 }
-
+@media only screen and (max-width: 1024px) {
+	
+}
 @media only screen and (max-width: 649px) {
 	.link{
 		font-size: 1em;
