@@ -53,7 +53,7 @@ section{
 /* Create a Parallax Effect */
 .websites, .project {
     opacity: 0.7;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,7 +130,9 @@ html {
     *zoom: 1;
 }
 @media only screen and (max-width: 1024px) {
-	
+	body{
+		background-attachment: fixed;
+	}
 }
 @media only screen and (max-width: 649px) {
 	.link{

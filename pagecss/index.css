@@ -59,6 +59,7 @@
 
 /* Turn off parallax scrolling for tablets and mobiles */
 @media only screen and (max-width: 1024px) {
+
 	.intro-container, .middle-container, .ending-container{
 		min-height: 100vh;
 		max-width: 100%;
@@ -81,6 +82,9 @@
 	
 }
 @media only screen and (max-width: 649px) {
+	section, header, footer{
+		min-width: 320px;
+	}
 	.intro-container, .middle-container, .ending-container{
 		min-height: 100vh;
 		height: 350px;
@@ -96,7 +100,7 @@
 		font-size: 17px;
 	}
 	.welcome{
-		padding: 20px;
+		padding: 15px;
 		text-align: center;
 	}
 	.welcome h1{
